@@ -46,13 +46,50 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.header,footer{
+	background-color: #1a2325;
+	color: #a1a4a4;
+	padding: 20px;
+}
 body {
   margin-right: auto;
   margin-left: auto;
   width: 960px;
-}
-.header,footer{
-	background-color: black;
-	color: white;
+
 }
 
+h1 {
+ margin-left: 40px;
+}
+
+h2 {
+	font-size: 20px;
+	color: white;
+	margin-top: 50px; 
+	width: 200px;
+}
+h3 {
+	color: grey;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+p {
+	width: 300px;
+
+}
+
+img {
+	height: 400px;
+    width: 300px;
+	margin-left: 100px;
+	position: absolute;
+	right: 400px;
+
+}
+
+.logo{
+	height: 50px;
+	width: 50px;
+	position: 0;
+}
