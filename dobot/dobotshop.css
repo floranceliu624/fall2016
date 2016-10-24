@@ -48,48 +48,50 @@ table {
 }
 
 .header,footer{
-	background-color: #1a2325;
-	color: #a1a4a4;
 	padding: 20px;
+
 }
 body {
   margin-right: auto;
   margin-left: auto;
   width: 960px;
+  color: #a1a4a4;
+  background-color: #1a2325;
 
 }
-
 h1 {
  margin-left: 40px;
 }
-
-h2 {
+.header2 {
 	font-size: 20px;
 	color: white;
 	margin-top: 50px; 
 	width: 200px;
+	font-family:"quatroslab";
+
 }
 h3 {
 	color: grey;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	
 }
 p {
 	width: 300px;
 
 }
-
-img {
+.product {
 	height: 400px;
     width: 300px;
 	margin-left: 100px;
 	position: absolute;
 	right: 400px;
-
 }
-
 .logo{
 	height: 50px;
 	width: 50px;
-	position: 0;
+	position:static;
 }
+
+
+
