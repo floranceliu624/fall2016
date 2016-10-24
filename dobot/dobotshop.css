@@ -28,9 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -52,6 +50,7 @@ table {
 
 }
 body {
+	line-height: 1;
   margin-right: auto;
   margin-left: auto;
   width: 960px;
@@ -59,7 +58,7 @@ body {
   background-color: #1a2325;
 
 }
-h1 {
+.h1 {
  margin-left: 40px;
 }
 .header2 {
@@ -70,7 +69,7 @@ h1 {
 	font-family:"quatroslab";
 
 }
-h3 {
+.h3 {
 	color: grey;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -78,20 +77,29 @@ h3 {
 }
 p {
 	width: 300px;
+	font-family:"LFTETICA";
+
 
 }
 .product {
-	height: 400px;
-    width: 300px;
-	margin-left: 100px;
-	position: absolute;
-	right: 400px;
+	height: 600px;
+    width: 500px;
+	float:right;
+	clear:both;
+	margin:0;
+	position:relative;
+	bottom:250px;
+	margin:20px;
 }
 .logo{
 	height: 50px;
 	width: 50px;
 	position:static;
 }
-
-
+.price{
+	font-family:"quatroslab";
+}
+.link {
+	font-family:"";
+}
 
