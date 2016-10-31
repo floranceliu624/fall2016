@@ -45,39 +45,49 @@ table {
 	border-spacing: 0;
 }
 
+
+
+/* CSS STARTS HERE */
+
+
+
+
+
 body {
-	line-height: 1;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   width: 960px;
-  color: #a1a4a4;
   background-color: #1a2325;
+  border-top: 1px solid #f8695a;
 
 }
-.h1 {
- margin-left: 40px;
-}
-.header2 {
-	font-size: 20px;
-	color: white;
+h1 {
+	padding-top:80px;
+	font-size: 30px;
 	margin-top: 50px; 
-	width: 200px;
+	margin-bottom:10px;
+	width: 300px;
 	font-family:"quatroslab";
+	color:white;
 
 }
-.h3 {
-	color: grey;
-	padding-top: 20px;
-	padding-bottom: 20px;
+h2 {
+	color:grey;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	margin-bottom:10px;
 	
 }
 p {
 	width: 300px;
+	color: #a1a4a4;
 	font-family:"LFT ETICA";
+	padding-bottom:10px;
+	font-size:16px;
 
 
 }
 .product {
+
 	height: 600px;
     width: 500px;
 	float:right;
@@ -86,6 +96,9 @@ p {
 	position:relative;
 	bottom:250px;
 	margin:20px;
+	padding-left:100px;
+
+
 }
 .logo{
 	height: 50px;
@@ -94,11 +107,27 @@ p {
 }
 .price{
 	font-family:"quatroslab";
+	color:white;
+	font-size:24px;
+	margin:10px;
+
 }
 .link {
-	font-family:"";
+	font-family:"LFT ETICA";
+	text-decoration:none;
+	color:#01bfc1;
+
+
 }
 .article {
-	background-color: white ;
 	
 }
+button{
+background-color:#01ccce;
+display:inline;
+border:none;
+color:white;
+padding:15px 32px;
+font-size:14px;
+}
+
