@@ -87,11 +87,16 @@ p {
 
 
 }
+
+.paragraph {
+	float:left;
+}
 .product {
 
 	height: 600px;
-    width: 500px;
-	float:right;
+    width: 500px 
+    float:right;
+
 	margin:10px;
 	
 	border:6px solid white;
@@ -108,7 +113,7 @@ p {
 	font-size:24px;
 	margin:10px;
 	padding-top:20px;
-	position:absolute;
+	
 
 }
 .link {
@@ -124,7 +129,9 @@ p {
 article  {
 	border-top:1px dotted #31393b;
 	padding-bottom:400px;
-	overflow:auto;
+	width:500px;
+	
+
 
 
 }
@@ -144,12 +151,6 @@ button{
 
 }
 
-@media (max-width: 800px) {
-	article{
-		width:30%;
-		
-	}
-}
 
 @font-face {
   font-family: 'quatro';
