@@ -65,7 +65,7 @@ h1{
 	font-family:"helvetica";
 	color:black;
 	font-size:35px;
-	margin-top:15px;
+	margin-top:20px;
 	
 
 }
@@ -74,14 +74,12 @@ h1{
 	width:100%;
 	height:70%;
 	display:block;
-	margin-right:auto;
-	margin-left:auto;
+
 
 }
 
 div{
 	width:100%;
-
 	margin-right:auto;
 	margin-left:auto;
 
@@ -112,6 +110,7 @@ div{
 	height:300px;
 	float:left;
 	margin:5px;
+
 
 }
 
